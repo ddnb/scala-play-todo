@@ -1,4 +1,4 @@
-name := """sample-play-scala"""
+name := """scala-play-todo"""
 organization := "info.diendannhatban"
 
 version := "1.0-SNAPSHOT"
