@@ -11,3 +11,7 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 # sample
 GET     /sample/helloworld    controllers.SampleController.helloworld()
+
+# todo
+GET     /todo/helloworld    controllers.TodoController.helloworld()
+GET     /todo               controllers.TodoController.list()
