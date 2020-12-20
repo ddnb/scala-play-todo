@@ -15,3 +15,11 @@ GET     /sample/helloworld    controllers.SampleController.helloworld()
 # todo
 GET     /todo/helloworld    controllers.TodoController.helloworld()
 GET     /todo               controllers.TodoController.list()
+GET     /todo/new                   controllers.TodoController.todoNew()
+GET     /todo/edit/:todoId          controllers.TodoController.todoEdit(todoId:Long)
+
+POST    /todo                       controllers.TodoController.todoAdd()
+POST    /todo/:todoId                controllers.TodoController.todoUpdate(todoId:Long)
+
+# Delete
+POST    /todo/:todoId/delete         controllers.TodoController.todoDelete(todoId:Long)
